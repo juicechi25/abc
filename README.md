@@ -71,7 +71,7 @@ du -s	Display an entry for each specified file
 du -sk* | sort -nr	List files and folders, totaling the size including the subfolders. Replace sk* with sm* to list directories in MB
 df -h	Calculate your system's free disk space
 df -H	Calculate free disk space in powers of 1,000 (as opposed to 1,024)
-Mac terminal commands link: https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/ 
+ 
 
 File and Directory Management
 mkdir <dir>	Create new folder named <dir>
@@ -118,3 +118,4 @@ top -ocpu -s 5	Display processes sorted by CPU usage, updating every 5 seconds
 top -o rsize	Sort top by memory usage
 kill PID	Quit process with ID <PID>. You'll see PID as a column in the Activity Monitor
 ps -ax | grep <appname>	Find a process by name or PID
+
